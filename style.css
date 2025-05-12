@@ -1,0 +1,552 @@
+body{
+    background-color:rgb(41, 178, 233);
+    font-family: cursive;
+}
+
+/* navbar full code start */
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+@media only screen and (max-width: 400px) {
+    #navbar{
+
+        height: 50px;
+        width: 100%;
+        background-color:black;
+        border-radius: 6px;
+        border: 2px solid white;
+        }
+}
+
+/*  navbar full code end */
+
+/* logo full code stard */
+#logo{
+    height: 60px;
+    width: 100px;
+    background-image: url(/Screenshot\ 2025-02-10\ 002837.png);
+    background-size:130px;
+    right: 20px;
+    border-radius: 2px;
+    border: 2px solid rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    animation: mymove 1.2s ;
+    
+}
+
+:hover#logo{
+    height: 60px;
+    width: 100px;
+    background-image: url(/Screenshot\ 2025-02-10\ 002837.png);
+    background-size:130px;
+    right: 20px;
+    border-radius: 2px;
+    border: 2px solid #000000;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+#logo{
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes example {
+    from {left: -150px;}
+    to {left:10px; }
+  }
+
+  @media only screen and (max-width: 400px) {
+    #logo{
+        height: 30px;
+        width: 47px;
+        background-size:60px;
+    }
+  }
+
+@media only screen and (max-width: 400px){
+    :hover#logo{
+        height: 30px;
+        width: 47px;
+        background-image: url(/Screenshot\ 2025-02-10\ 002837.png);
+        background-size:60px;
+        right: 20px;
+        border-radius: 2px;
+        border: 2px solid #000000;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+  }
+
+
+
+
+/* logo full code end */
+
+/* serchbar full code start */
+
+#seb{
+  height: 40px;
+  width: 500px;
+  font-size: 30px;
+  font-family: cursive;
+  background-image: url(/Screenshot\ 2025-02-10\ 002837.png);
+  background-size: 700px;
+  border:2px dashed white ;
+  border-radius: 2px;
+  border-right: none;
+}
+
+#search{
+  height: 40px;
+  width: 500px;
+  position: relative;
+  top: -46px;
+  left: 290px;
+}
+
+:hover#seb{
+  height: 40px;
+  width: 500px;
+  font-size: 30px;
+  font-family: cursive;
+  background-image: url(/Screenshot\ 2025-02-10\ 002837.png);
+  background-size: 700px;
+  border:2px dashed rgb(0, 0, 0) ;
+}
+
+
+#search{
+  height: 0px;
+  width: 0px;
+}
+
+button{
+  height: 46px;
+  width: 46px;
+  background-image: url(/white-magnifying-glass-icon-isolated-260nw-1573346785.webp);
+  background-size: cover;
+  position: relative;
+  top: -18px;
+  left: 507px;
+  border:2px dashed white ;
+  border-radius: 2px;
+  border-left: none;
+  border-top:1px dashed white ;
+  border-bottom:1px dashed white;
+
+}
+
+@media only screen and (max-width: 400px){
+  #seb{
+    height: 20px;
+    width: 100px;
+    font-size: 15px;
+    font-family: cursive;
+    background-image: url(/Screenshot\ 2025-02-10\ 002837.png);
+    background-size: 700px;
+    border:2px dashed white ;
+    border-radius: 2px;
+    border-right: none;
+  }
+  
+  #search{
+    height: 40px;
+    width: 500px;
+    position: relative;
+    top: -22px;
+    left: 90px;
+  }
+  
+  :hover#seb{
+    height: 20px;
+    width: 100px;
+    font-size: 15px;
+    font-family: cursive;
+    background-image: url(/Screenshot\ 2025-02-10\ 002837.png);
+    background-size: 700px;
+    border:2px dashed rgb(0, 0, 0) ;
+  }
+  
+  
+  #search{
+    height: 0px;
+    width: 0px;
+  }
+  
+  button{
+    height: 25px;
+    width: 28px;
+    background-image: url(/white-magnifying-glass-icon-isolated-260nw-1573346785.webp);
+    background-size: cover;
+    position: relative;
+    top: -18px;
+    left: 107px;
+    border:2px dashed white ;
+    border-radius: 2px;
+    border-left: none;
+    #seb{
+      height: 40px;
+      width: 500px;
+      font-size: 30px;
+      font-family: cursive;
+      background-image: url(/Screenshot\ 2025-02-10\ 002837.png);
+      background-size: 700px;
+      border:2px dashed white ;
+      border-radius: 2px;
+      border-right: none;
+    }
+    
+    #search{
+      height: 40px;
+      width: 500px;
+      position: relative;
+      top: -46px;
+      left: 190px;
+    }
+    
+    :hover#seb{
+      height: 40px;
+      width: 500px;
+      font-size: 30px;
+      font-family: cursive;
+      background-image: url(/Screenshot\ 2025-02-10\ 002837.png);
+      background-size: 700px;
+      border:2px dashed rgb(0, 0, 0) ;
+    }
+    
+    
+    #search{
+      height: 0px;
+      width: 0px;
+    }
+    
+    button{
+      height: 47px;
+      width: 46px;
+      background-image: url(/white-magnifying-glass-icon-isolated-260nw-1573346785.webp);
+      background-size: cover;
+      position: relative;
+      top: -18px;
+      left: 507px;
+      border:2px dashed white ;
+      border-radius: 2px;
+      border-left: none;
+      border-top:0.40px dashed rgb(255, 255, 255) ;
+      border-bottom:0.70px dashed white;
+    
+    }
+  
+  }
+}
+
+
+
+
+
+
+
+/* serchbar full code end*/
+
+
+/* nav image full code start */
+
+#navp{
+  height: 73px;
+  width: 60px;
+  background-image: url(/images.png);
+  background-size:100px ;
+  background-position: left -30px top -5px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 162px;
+  top: -75px;
+}
+
+@media only screen and (max-width: 400px){
+  #navp{
+    height: 35px;
+    width: 25px;
+    background-image: url(/images.png);
+    background-size:50px ;
+    background-position: left -15px top -2.50px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 63px;
+    top: -37.50px;
+  }
+
+}
+
+/* nav image full code end */
+
+/* game web link full code start */
+
+#glink{
+  height: 78px ;
+  width: 100px;
+}
+
+#glinki{
+  height: 80px;
+  width: 150px;
+  position: relative;
+  left: 880px;
+  top: -155px;
+}
+
+
+@media only screen and (max-width: 400px){
+  #glink{
+    height: 78px ;
+    width: 100px;
+  }
+  
+  #glinki{
+    height: 40px;
+    width: 75px;
+    position: relative;
+    left: 235px;
+    top: -83px;
+  }
+}
+
+/* nav video */
+
+#navv{
+  background-color: #000000;
+  position: absolute;
+  left: 185px;
+  top: 9.5px;
+}
+@media only screen and (max-width: 400px) {
+  #navv{
+    background-color: #000000;
+    position: absolute;
+    left: 10085px;
+    top: 9.5px;
+  }
+}
+
+/* gta v link */
+
+
+#gtav{
+ position:absolute;
+ top: 120px;
+ left: 30px;
+}
+
+@media only screen and (max-width: 670px){
+  #gtav{
+    position:absolute;
+    top: 75px;
+    left: 15px;
+   }
+
+   #imggtav{
+    height: 100px;
+    width: 80px;
+   }
+}
+
+/* MINECRAFT link */
+
+#minimg{
+height: 228px;
+width: 180px;
+
+}
+
+#minecraft{
+position: absolute;
+top: 119px;
+left: 230px;
+}
+
+@media only screen and (max-width: 670px){
+  #minimg{
+    position:absolute;
+    top: -44px;
+    left: -120px;
+    height: 103px;
+    width: 85px;
+   }
+
+   #minecraft{
+    height: 50px;
+    width: 30px;
+   }
+}
+
+/* cyberpunk link */
+
+#cyber{
+  position: absolute;
+  top: 119px;
+  left: 330px;
+
+  }
+
+  #cymg{
+    position:absolute;
+    top: 0px;
+    left: 103px;
+    height: 228.6px;
+    width: 175px;
+  }
+
+  @media only screen and (max-width: 670px){
+    #cyber{
+      position:absolute;
+      top: 75.7px;
+      left: 108px;
+    
+     }
+
+     #cymg{
+      height: 100px;
+      width: 80px;
+     }
+  }
+
+  /* black mith wolkong full code  */
+
+  #kong{
+    height: 228px;
+    width: 414px;
+    position: absolute;
+    left: 630px;
+    top: 119px;
+  }
+
+  @media only screen and (max-width: 670px){
+    
+  #kong{
+    height: 114px;
+    width: 276px;
+    position: absolute;
+    left: 15px;
+    top: 190px;
+  }
+  }
+
+  /* go of war full code */
+
+  #god{
+    height: 228px;
+    width:250px ;
+    position: absolute;
+    left: 1070px;
+    top: 119px;
+  }
+
+  @media only screen and (max-width: 670px){
+    #god{
+      height: 200px;
+      width:240px ;
+      position: absolute;
+      left: 15px;
+      top: 320px;
+    }
+  }
+  /* bottom full code */
+
+  #bottom{
+    background-image:url(/bottom.jpeg);
+    height: 350px;
+    width:2000px;
+    position: fixed;
+    bottom: 0px;
+    left: -5px;
+    right: -15px;
+    color: white;
+  }
+
+  p{
+    text-align: center;
+    position: fixed;
+    left: 65px;
+    bottom: 30px;
+    
+  }
+
+  #founder{
+    text-align: center;
+    position: fixed;
+    left: 190px;
+    bottom: 200px;
+  }
+
+#founderimg{
+  text-align: center;
+  position: fixed;
+  left:765px;
+  bottom: 150px;
+}
+
+#found{
+  height: 180px;
+  width: 150px;
+}
+
+@media only screen and (max-width: 670px){
+
+  /* bottom full code */
+
+  #bottom{
+    background-image:url(/bottom.jpeg);
+    height: 175px;
+    width:1000px;
+    position: fixed;
+    bottom: 0px;
+    left: -2.5px;
+    right: -7.5px;
+    color: white;
+  }
+
+  p{
+    font-size: 5px;
+    text-align: center;
+    position: fixed;
+    left: 5px;
+    bottom: 15px;
+    
+  }
+
+  #founder{
+    font-size: 5px;
+    text-align: center;
+    position: fixed;
+    left: 5px;
+    bottom: 100px;
+  }
+
+#founderimg{
+  text-align: center;
+  position: fixed;
+  left:255px;
+  bottom: 67px;
+}
+
+#found{
+  height: 90px;
+  width: 75px;
+}
+
+}
+
